@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body id="maindiv">
+<h1>Hey Hey! Welcome to my homepage xD</h1>
+<h2>Litt om meg c:</h2>
+
+
+
+
+
+    <div class="about">
+
+
+        <ul>
+            <p>Navn: Adrian Grøn</p>
+            <p>Location: Trondheim</p>
+            <p>Alder: 26</p>
+        </ul>
+
+    </div>
+
+
+
+
+    <div id="nightmode">
+        <button onclick="changebackground(maindiv)">Night</button>
+    </div>
+
+
+
+
+
+
+    <div class="card">
+        <div class="header" onclick="games()">Favourite Games</div>
+        <div id="container1"></div>
+    </div>
+
+
+    <div class="card2">
+        <div class="header" onclick="drawings()">Pictures</div>
+        <div id="container2"></div>
+    </div>
+
+    <div id="blank"></div>
+
+
+
+
+
+<script>
+    function games() {
+        document.getElementById('container1').innerHTML = /*HTML*/`
+                    <p> Destiny 2 </p>
+                    <p> Terraria </p>
+                    <p> Super smash bros </p>
+                    <p> Total War </p>
+                    <p> Baldurs gate 3 </p>
+                    <p> Kenshi </p>
+                    <p> Factorio </p>
+                    <div class="closegames"></div>
+                    <button class="close" onclick="closegames()">close</button>
+                `;
+
+    }
+
+    function drawings() {
+        document.getElementById('container2').innerHTML = /*HTML*/`
+            <p>  </p>
+              <img src="character_d2.jpg" width="300" style="border: 10px solid black;"> 
+              <img src="character_b2.jpg" width="300" style="border: 10px solid black;" > 
+
+                <div class="blank"></div>
+                    <button class="closedrawings" onclick="closedrawings()">close</button>
+             
+            `;
+
+
+
+
+    }
+
+    function closegames() {
+        document.getElementById('container1').innerHTML = ''
+    }
+
+    function closedrawings() {
+        document.getElementById('container2').innerHTML = ''
+    }
+
+    function changebackground() {
+        document.getElementById("maindiv").style.backgroundImage = "url(creepy_land.jpg)";
+
+
+    }
+
+</script>
+</body>
+
+</html>

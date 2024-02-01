@@ -1,0 +1,65 @@
+.h1 {
+    color: white;
+    font-size: large;
+    
+
+}
+
+.h3 {
+    color: white;
+    font-size: large;
+
+}
+
+div.about {
+    color: white;
+    border: 5px solid black;
+    margin: 5%;
+    padding: 3%;
+    background-color: rgb(68, 0, 128);
+
+}
+
+body {
+    text-align: center;
+    font-size: large;
+    background-image: url('happy_land.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+.card {
+    color: white;
+    border: 5px solid black;
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(68, 0, 128);
+
+}
+
+.card2 {
+    color: white;
+    border: 5px solid black;
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(68, 0, 128);
+
+}
+
+.maindiv{
+   
+    background-image: url('creepy_land.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    
+    
+   
+
+}
+
+
+
